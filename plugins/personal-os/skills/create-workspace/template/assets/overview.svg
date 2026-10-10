@@ -1,112 +1,113 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
-  <title id="t">Claude Workspace Kit overview</title>
-  <desc id="d">You talk in plain language. The workspace remembers you, keeps projects in order, writes in your voice, runs automations, teaches you Claude Code and stays safe by default. The Personal OS plugin adds daily commands. Result: you never explain yourself twice.</desc>
+  <title id="t">Do you want to start with Claude Code?</title>
+  <desc id="d">The Claude Workspace Kit sets up your AI workspace: it remembers you, keeps projects in order, writes in your voice, runs automations, teaches you Claude Code and stays safe by default. The Personal OS plugin adds daily commands. Result: you never explain yourself twice.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L10 5 L0 10 z" fill="#8A877F"/>
+      <path d="M0 0 L10 5 L0 10 z" fill="#111111"/>
     </marker>
     <style>
-      .h { font: 700 30px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #141413; }
-      .sub { font: 400 16px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #5E5D59; }
-      .ct { font: 700 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #141413; }
-      .cb { font: 400 13.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #3D3C38; }
-      .cm { font: 600 12.5px ui-monospace, "SFMono-Regular", Consolas, Menlo, monospace; fill: #5E5D59; }
-      .lab { font: 700 12px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8A877F; letter-spacing: 1.5px; }
-      .cmd { font: 600 14px ui-monospace, "SFMono-Regular", Consolas, Menlo, monospace; fill: #141413; }
-      .cmdd { font: 400 12.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #5E5D59; }
-      .band { font: 600 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #FAF9F5; }
-      .bandk { font: 700 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #F0A285; }
+      .k { font: 700 12px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #6B6B6B; letter-spacing: 1.5px; }
+      .h { font: 700 32px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #111111; }
+      .sub { font: 400 16px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #444444; }
+      .ct { font: 700 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #111111; }
+      .cb { font: 400 13.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #333333; }
+      .cbi { font: italic 400 14px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #333333; }
+      .cm { font: 600 12.5px ui-monospace, "SFMono-Regular", Consolas, Menlo, monospace; fill: #555555; }
+      .cmd { font: 600 14px ui-monospace, "SFMono-Regular", Consolas, Menlo, monospace; fill: #111111; }
+      .cmdd { font: 400 12.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #555555; }
+      .num { font: 700 13px ui-monospace, "SFMono-Regular", Consolas, Menlo, monospace; fill: #FFFFFF; }
+      .band { font: 600 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; }
+      .bandk { font: 700 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; }
     </style>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="758" rx="24" fill="#FAF9F5" stroke="#E8E4DA" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="758" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
 
   <!-- Header -->
-  <circle cx="64" cy="58" r="14" fill="#D97757"/>
-  <path d="M64 48 L66.4 55.6 L74 58 L66.4 60.4 L64 68 L61.6 60.4 L54 58 L61.6 55.6 Z" fill="#FAF9F5"/>
-  <text x="90" y="68" class="h">Claude Workspace Kit</text>
-  <text x="48" y="104" class="sub">An AI workspace for Claude Code that remembers you, keeps your work in order and sounds like you. No coding needed.</text>
+  <text x="48" y="58" class="k">CLAUDE WORKSPACE KIT</text>
+  <text x="48" y="98" class="h">Do you want to start with Claude Code?</text>
+  <text x="48" y="128" class="sub">This kit sets up your AI workspace in 10 minutes. It remembers you, keeps your work in order and sounds like you. No coding needed.</text>
 
   <!-- You -->
-  <text x="48" y="150" class="lab">YOU</text>
-  <rect x="48" y="162" width="200" height="438" rx="16" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="148" cy="232" r="34" fill="#F3E3DA"/>
-  <circle cx="148" cy="222" r="11" fill="#D97757"/>
-  <path d="M124 252 Q148 232 172 252" stroke="#D97757" stroke-width="8" fill="none" stroke-linecap="round"/>
-  <text x="148" y="300" class="ct" text-anchor="middle">You talk</text>
-  <text x="148" y="326" class="cb" text-anchor="middle">in plain language</text>
-  <text x="148" y="370" class="cb" text-anchor="middle">"Plan my week"</text>
-  <text x="148" y="394" class="cb" text-anchor="middle">"Reply to Jonas"</text>
-  <text x="148" y="418" class="cb" text-anchor="middle">"New project:</text>
-  <text x="148" y="436" class="cb" text-anchor="middle">coffee pop-up"</text>
-  <line x1="72" y1="468" x2="224" y2="468" stroke="#E8E4DA"/>
-  <text x="148" y="498" class="cmdd" text-anchor="middle">Desktop app (Code tab),</text>
-  <text x="148" y="518" class="cmdd" text-anchor="middle">terminal, VS Code</text>
-  <text x="148" y="538" class="cmdd" text-anchor="middle">or claude.ai/code</text>
+  <text x="48" y="172" class="k">YOU</text>
+  <rect x="48" y="184" width="200" height="416" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <text x="148" y="232" class="ct" text-anchor="middle">You talk</text>
+  <text x="148" y="256" class="cb" text-anchor="middle">in plain language</text>
+  <line x1="72" y1="284" x2="224" y2="284" stroke="#DDDDDD"/>
+  <text x="148" y="322" class="cbi" text-anchor="middle">"Plan my week"</text>
+  <text x="148" y="352" class="cbi" text-anchor="middle">"Reply to Jonas"</text>
+  <text x="148" y="382" class="cbi" text-anchor="middle">"New project:</text>
+  <text x="148" y="401" class="cbi" text-anchor="middle">coffee pop-up"</text>
+  <text x="148" y="431" class="cbi" text-anchor="middle">"What did we</text>
+  <text x="148" y="450" class="cbi" text-anchor="middle">decide last week?"</text>
+  <line x1="72" y1="490" x2="224" y2="490" stroke="#DDDDDD"/>
+  <text x="148" y="520" class="cmdd" text-anchor="middle">Desktop app (Code tab),</text>
+  <text x="148" y="540" class="cmdd" text-anchor="middle">terminal, VS Code</text>
+  <text x="148" y="560" class="cmdd" text-anchor="middle">or claude.ai/code</text>
 
-  <line x1="252" y1="381" x2="292" y2="381" stroke="#8A877F" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="252" y1="392" x2="292" y2="392" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
 
   <!-- Workspace pillars -->
-  <text x="300" y="150" class="lab">YOUR WORKSPACE DOES</text>
+  <text x="300" y="172" class="k">YOUR WORKSPACE DOES</text>
 
-  <rect x="300" y="162" width="290" height="132" rx="14" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="324" cy="190" r="7" fill="#D97757"/>
-  <text x="340" y="196" class="ct">Remembers you</text>
-  <text x="318" y="224" class="cb">Your profile, rules and decisions are</text>
-  <text x="318" y="243" class="cb">loaded every session, auto-updated.</text>
-  <text x="318" y="275" class="cm">CLAUDE.md · context/</text>
+  <rect x="300" y="184" width="290" height="124" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <rect x="316" y="200" width="24" height="24" rx="6" fill="#111111"/><text x="328" y="217" class="num" text-anchor="middle">1</text>
+  <text x="350" y="218" class="ct">Remembers you</text>
+  <text x="316" y="246" class="cb">Your profile, rules and decisions are</text>
+  <text x="316" y="265" class="cb">loaded every session, auto-updated.</text>
+  <text x="316" y="292" class="cm">CLAUDE.md · context/</text>
 
-  <rect x="610" y="162" width="290" height="132" rx="14" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="634" cy="190" r="7" fill="#3B6EA8"/>
-  <text x="650" y="196" class="ct">Keeps projects in order</text>
-  <text x="628" y="224" class="cb">A few questions, then a ready folder</text>
-  <text x="628" y="243" class="cb">with goal, status, docs and outputs.</text>
-  <text x="628" y="275" class="cm">/new-project · projects/</text>
+  <rect x="610" y="184" width="290" height="124" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <rect x="626" y="200" width="24" height="24" rx="6" fill="#111111"/><text x="638" y="217" class="num" text-anchor="middle">2</text>
+  <text x="660" y="218" class="ct">Keeps projects in order</text>
+  <text x="626" y="246" class="cb">A few questions, then a ready folder</text>
+  <text x="626" y="265" class="cb">with goal, status, docs and outputs.</text>
+  <text x="626" y="292" class="cm">/new-project · projects/</text>
 
-  <rect x="300" y="314" width="290" height="132" rx="14" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="324" cy="342" r="7" fill="#2F7D55"/>
-  <text x="340" y="348" class="ct">Sounds like you</text>
-  <text x="318" y="376" class="cb">The voice-keeper learns how you write;</text>
-  <text x="318" y="395" class="cb">texts come out authentic, not AI-speak.</text>
-  <text x="318" y="427" class="cm">/draft · /voice · voice.json</text>
+  <rect x="300" y="330" width="290" height="124" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <rect x="316" y="346" width="24" height="24" rx="6" fill="#111111"/><text x="328" y="363" class="num" text-anchor="middle">3</text>
+  <text x="350" y="364" class="ct">Sounds like you</text>
+  <text x="316" y="392" class="cb">The voice-keeper learns how you write;</text>
+  <text x="316" y="411" class="cb">texts come out authentic, not AI-speak.</text>
+  <text x="316" y="438" class="cm">/draft · /voice · voice.json</text>
 
-  <rect x="610" y="314" width="290" height="132" rx="14" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="634" cy="342" r="7" fill="#7A5AA6"/>
-  <text x="650" y="348" class="ct">Runs by itself</text>
-  <text x="628" y="376" class="cb">Hooks for macOS, Linux and Windows:</text>
-  <text x="628" y="395" class="cb">session check, auto-save, notifications.</text>
-  <text x="628" y="427" class="cm">/setup-hooks · .claude/hooks/</text>
+  <rect x="610" y="330" width="290" height="124" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <rect x="626" y="346" width="24" height="24" rx="6" fill="#111111"/><text x="638" y="363" class="num" text-anchor="middle">4</text>
+  <text x="660" y="364" class="ct">Runs by itself</text>
+  <text x="626" y="392" class="cb">Hooks for macOS, Linux and Windows:</text>
+  <text x="626" y="411" class="cb">session check, auto-save, notifications.</text>
+  <text x="626" y="438" class="cm">/setup-hooks · .claude/hooks/</text>
 
-  <rect x="300" y="466" width="290" height="132" rx="14" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="324" cy="494" r="7" fill="#B7791F"/>
-  <text x="340" y="500" class="ct">Teaches you Claude Code</text>
-  <text x="318" y="528" class="cb">Hands-on tour with an example project,</text>
-  <text x="318" y="547" class="cb">12 short lessons, an onboarding guide.</text>
-  <text x="318" y="579" class="cm">/start-here · /tour · /onboarding-help</text>
+  <rect x="300" y="476" width="290" height="124" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <rect x="316" y="492" width="24" height="24" rx="6" fill="#111111"/><text x="328" y="509" class="num" text-anchor="middle">5</text>
+  <text x="350" y="510" class="ct">Teaches you Claude Code</text>
+  <text x="316" y="538" class="cb">Hands-on tour with an example project,</text>
+  <text x="316" y="557" class="cb">12 short lessons, an onboarding guide.</text>
+  <text x="316" y="584" class="cm">/start-here · /tour · /onboarding-help</text>
 
-  <rect x="610" y="466" width="290" height="132" rx="14" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <circle cx="634" cy="494" r="7" fill="#2A7F86"/>
-  <text x="650" y="500" class="ct">Safe by default</text>
-  <text x="628" y="528" class="cb">Allow / ask / deny rules. Nothing sent,</text>
-  <text x="628" y="547" class="cb">published or deleted without your OK.</text>
-  <text x="628" y="579" class="cm">.claude/settings.json</text>
+  <rect x="610" y="476" width="290" height="124" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <rect x="626" y="492" width="24" height="24" rx="6" fill="#111111"/><text x="638" y="509" class="num" text-anchor="middle">6</text>
+  <text x="660" y="510" class="ct">Safe by default</text>
+  <text x="626" y="538" class="cb">Allow / ask / deny rules. Nothing sent,</text>
+  <text x="626" y="557" class="cb">published or deleted without your OK.</text>
+  <text x="626" y="584" class="cm">.claude/settings.json</text>
 
-  <line x1="904" y1="381" x2="944" y2="381" stroke="#8A877F" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="904" y1="392" x2="944" y2="392" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
 
   <!-- Plugin -->
-  <text x="952" y="150" class="lab">PERSONAL OS PLUGIN</text>
-  <rect x="952" y="162" width="200" height="438" rx="16" fill="#FFFFFF" stroke="#E8E4DA" stroke-width="1.5"/>
-  <text x="972" y="200" class="cmd">/today</text><text x="972" y="218" class="cmdd">3 priorities for the day</text>
-  <text x="972" y="250" class="cmd">/dump</text><text x="972" y="268" class="cmdd">empty your head, sorted</text>
-  <text x="972" y="300" class="cmd">/weekly-review</text><text x="972" y="318" class="cmdd">done, stuck, next week</text>
-  <text x="972" y="350" class="cmd">/decide</text><text x="972" y="368" class="cmdd">clear recommendation</text>
-  <text x="972" y="400" class="cmd">/learn</text><text x="972" y="418" class="cmdd">links into notes + actions</text>
-  <text x="972" y="450" class="cmd">/focus</text><text x="972" y="468" class="cmdd">one task, 25-min steps</text>
-  <text x="972" y="500" class="cmd">/draft · /voice</text><text x="972" y="518" class="cmdd">texts in your voice</text>
-  <text x="972" y="550" class="cmd">/create-workspace</text><text x="972" y="568" class="cmdd">all of this, one command</text>
+  <text x="952" y="172" class="k">PERSONAL OS PLUGIN</text>
+  <rect x="952" y="184" width="200" height="416" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <text x="972" y="220" class="cmd">/today</text><text x="972" y="238" class="cmdd">3 priorities for the day</text>
+  <text x="972" y="268" class="cmd">/dump</text><text x="972" y="286" class="cmdd">empty your head, sorted</text>
+  <text x="972" y="316" class="cmd">/weekly-review</text><text x="972" y="334" class="cmdd">done, stuck, next week</text>
+  <text x="972" y="364" class="cmd">/decide</text><text x="972" y="382" class="cmdd">clear recommendation</text>
+  <text x="972" y="412" class="cmd">/learn</text><text x="972" y="430" class="cmdd">links into notes + actions</text>
+  <text x="972" y="460" class="cmd">/focus</text><text x="972" y="478" class="cmdd">one task, 25-min steps</text>
+  <text x="972" y="508" class="cmd">/draft · /voice</text><text x="972" y="526" class="cmdd">texts in your voice</text>
+  <text x="972" y="556" class="cmd">/create-workspace</text><text x="972" y="574" class="cmdd">all of this, one command</text>
 
   <!-- Result -->
-  <rect x="48" y="628" width="1104" height="84" rx="16" fill="#141413"/>
+  <rect x="48" y="628" width="1104" height="84" rx="16" fill="#111111"/>
   <text x="76" y="676" class="bandk">Result</text>
   <text x="150" y="676" class="band">Never explain yourself twice  ·  tidy projects  ·  texts that sound like you  ·  safe automation</text>
 </svg>
