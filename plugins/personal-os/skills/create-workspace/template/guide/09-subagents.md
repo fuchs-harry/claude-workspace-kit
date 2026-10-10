@@ -22,6 +22,8 @@ Check the text for spelling, tone (see context/working-style.md) and length. Rep
 ```
 Type `/agents` to see, create or edit them.
 
+Your workspace already has two: the **onboarding-guide** (runs the tour) and the **voice-keeper**, which studies texts you wrote yourself and keeps your writing profile `context/voice.json` current, so `/draft` sounds like you.
+
 ## Cost note
 Helpers use more of your plan's usage, because each one works separately. Worth it for big tasks, overkill for small ones.
 

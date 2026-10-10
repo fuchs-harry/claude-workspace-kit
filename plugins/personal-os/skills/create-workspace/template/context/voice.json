@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "about": "How the user writes. Maintained by the voice-keeper agent so that drafts sound authentically like the user. Only patterns observed in text the user wrote or edited themselves, never invented.",
+    "updated": null,
+    "samples_analyzed": 0,
+    "confidence": "none",
+    "confidence_scale": "none (0 samples) · low (1-4) · medium (5-14) · high (15+ across 2+ channels)"
+  },
+  "languages": [
+    { "lang": null, "when": null, "register": null, "notes": null }
+  ],
+  "tone": {
+    "summary": null,
+    "traits": [],
+    "humor": null,
+    "directness": null
+  },
+  "sentences": {
+    "length": null,
+    "structure": null,
+    "punctuation": null,
+    "capitalization": null
+  },
+  "vocabulary": {
+    "signature_words": [],
+    "signature_phrases": [],
+    "fillers_and_quirks": [],
+    "never_uses": []
+  },
+  "openers": { "email": [], "message": [], "social": [] },
+  "closers": { "email": [], "message": [], "social": [] },
+  "emoji": { "uses": null, "frequency": null, "favourites": [] },
+  "formatting": { "paragraphs": null, "lists": null, "hashtags": null },
+  "channels": {
+    "email": null,
+    "message": null,
+    "linkedin": null,
+    "instagram": null
+  },
+  "do": [],
+  "dont": [],
+  "examples": [],
+  "learned": []
+}

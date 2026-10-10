@@ -18,6 +18,7 @@ Go through the conversation (or what the user just said) and sort what's worth k
 | Decision inside a project | `projects/<name>/CLAUDE.md` → "Decisions" table, dated |
 | Project status or to-dos changed | `projects/<name>/CLAUDE.md` → "Status" and "Open to-dos"; same status in `projects/README.md` |
 | New background material for a project | `projects/<name>/docs/` (new file or added to `brief.md`) |
+| Text the user wrote or edited themselves (own email, corrected draft, "I'd never say that") | hand to the **voice-keeper** agent → `context/voice.json` |
 | Rule for **every** session (e.g. "always informal German", "never emojis") | master `CLAUDE.md` → **ask first** |
 
 Skip small talk, one-off tasks, and anything already written down. Never save passwords, keys, health data or other people's private data.

@@ -27,3 +27,18 @@ for dirpath, dirnames, filenames in os.walk(ROOT):
         shutil.copy2(os.path.join(dirpath, f), target)
         count += 1
 print(f"Template: {count} files -> {os.path.relpath(DEST, ROOT)}")
+
+# Shared items: the workspace is the single source, the plugin gets copies (so Cowork/chat users have them too).
+PLUGIN = os.path.join(ROOT, "plugins", "personal-os")
+SHARED_SKILLS = ["draft", "voice"]
+SHARED_AGENTS = ["voice-keeper.md"]
+for name in SHARED_SKILLS:
+    src = os.path.join(ROOT, ".claude", "skills", name)
+    dst = os.path.join(PLUGIN, "skills", name)
+    if os.path.exists(dst):
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+os.makedirs(os.path.join(PLUGIN, "agents"), exist_ok=True)
+for name in SHARED_AGENTS:
+    shutil.copy2(os.path.join(ROOT, ".claude", "agents", name), os.path.join(PLUGIN, "agents", name))
+print("Shared into plugin:", ", ".join(SHARED_SKILLS + SHARED_AGENTS))

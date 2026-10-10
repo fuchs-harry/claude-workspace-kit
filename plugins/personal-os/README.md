@@ -7,7 +7,8 @@ Your personal operating system for Claude. Plain-language commands for planning,
 | `/today` | Morning plan: your 3 priorities with time estimates, saved to `journal/` |
 | `/dump` | Brain dump: pour everything out, Claude sorts it into projects, to-dos, dates and ideas |
 | `/weekly-review` | 10-minute weekly review: done, stuck, quiet projects, inbox, top 3 for next week |
-| `/draft` | Emails, messages and posts in your voice, two versions, learns your style |
+| `/draft` | Emails, messages and posts in your voice, two versions, learns from your edits |
+| `/voice` | Train, show or test your writing voice; the **voice-keeper** agent keeps `context/voice.json` current |
 | `/decide` | Decision helper: options, criteria, devil's advocate, clear recommendation, logged |
 | `/learn` | Link, PDF or transcript → short learning note with actions, filed in the right place |
 | `/focus` | One task, cut into 25-minute steps, worked through together |
@@ -28,7 +29,7 @@ Your personal operating system for Claude. Plain-language commands for planning,
 |---|---|
 | `journal/` | daily plans (`YYYY-MM-DD.md`), weekly reviews, `inbox.md`, drafts without a project |
 | `library/` | learning notes not tied to a project |
-| `context/voice.md` | your writing voice: tone notes and examples |
+| `context/voice.json` | your writing voice: tone, phrases, openers/closers, emojis, examples per channel |
 | `projects/<name>/` | to-dos, decisions and outputs per project |
 
 Nothing is ever sent, published or deleted without your OK.

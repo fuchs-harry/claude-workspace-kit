@@ -1,11 +1,20 @@
 {
   "name": "personal-os",
   "displayName": "Personal OS",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Your personal operating system for Claude: daily plan, brain dump, weekly review, drafts in your voice, decision helper, learning notes, focus sessions, and a one-command AI workspace setup. Made for people who don't code.",
-  "author": { "name": "fuchs-harry" },
+  "author": {
+    "name": "fuchs-harry"
+  },
   "homepage": "https://github.com/fuchs-harry/claude-workspace-kit",
   "repository": "https://github.com/fuchs-harry/claude-workspace-kit",
   "license": "MIT",
-  "keywords": ["productivity", "personal", "planning", "journal", "non-coders", "workspace"]
+  "keywords": [
+    "productivity",
+    "personal",
+    "planning",
+    "journal",
+    "non-coders",
+    "workspace"
+  ]
 }

@@ -20,7 +20,7 @@ claude-workspace-kit/
 └── .claude/
     ├── settings.json    ← safety rules (what Claude may and may not do)
     ├── skills/          ← your slash commands
-    ├── agents/          ← the onboarding guide (a helper with its own personality)
+    ├── agents/          ← helpers: the onboarding guide and the voice-keeper
     └── hooks/           ← automations for macOS, Linux and Windows
 ```
 
@@ -29,6 +29,8 @@ claude-workspace-kit/
 | `/start-here` | First run. Claude interviews you (5 minutes), fills `context/` and switches on the automations. |
 | `/tour` | Guided hands-on tour (15–20 minutes) with an example project. Learn by doing. |
 | `/new-project` | Asks a few questions, then builds a ready-to-use project folder. |
+| `/draft` | Emails, messages and posts that sound like **you**, two versions, learns from your edits. |
+| `/voice` | Train, show or test your writing voice (`context/voice.json`). |
 | `/onboarding-help` | Your personal teacher: skills, commands, memory, rules, permissions, and more. |
 | `/update-context` | Saves what Claude learned into your workspace. Runs **automatically** (hook) every few answers and whenever you say things like "remember" or "from now on". |
 | `/setup-hooks` | Detects your system (macOS, Linux, Windows) and installs the matching automations. |
@@ -109,6 +111,11 @@ Answer Claude's questions, say yes to the automations, then take the guided tour
 
 ---
 
+## Your voice: authentic texts, not AI-speak
+The **voice-keeper** agent builds a profile of how you write in `context/voice.json`: tone, sentence length, favourite words and phrases, how you open and close emails or messages, emojis, how you sound to clients vs. friends, plus a few real examples (names of others removed). `/draft` writes with it, and every time you correct a draft, the voice-keeper learns from the difference. The automatic context hook passes your own texts to it, too.
+
+Start with `/voice train` and 3–5 texts you wrote yourself. Check what it learned with `/voice show`.
+
 ## Automations (hooks)
 After `/start-here` (or `/setup-hooks`) four small automations run by themselves:
 - **Session start:** Claude checks your active projects and, on the very first run, offers the setup and the tour.
@@ -125,7 +132,8 @@ Planning, thinking, writing and learning commands for daily life. Works inside t
 | `/today` | Morning plan: 3 priorities with time estimates, saved to `journal/` |
 | `/dump` | Brain dump: everything out of your head, sorted into projects, to-dos, dates, ideas |
 | `/weekly-review` | Done, stuck, quiet projects, inbox, top 3 for next week |
-| `/draft` | Emails, messages and posts in your voice, two versions, learns your style |
+| `/draft` | Emails, messages and posts in your voice, two versions, learns your style (voice-keeper agent) |
+| `/voice` | Train, show or test your writing voice |
 | `/decide` | Options, criteria, devil's advocate, a clear recommendation, logged with reasons |
 | `/learn` | Link, PDF or transcript → short note with actions, filed in the right place |
 | `/focus` | One task, cut into 25-minute steps, done together |

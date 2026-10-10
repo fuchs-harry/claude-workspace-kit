@@ -6,6 +6,7 @@ You are working in the user's personal AI workspace. The user is **not a program
 @context/about-me.md
 @context/working-style.md
 
+When you write any text the user will send or publish, use their voice profile `context/voice.json` (see `/draft`).
 ## Workspace map
 | Folder | What lives there | Who changes it |
 |---|---|---|
@@ -35,6 +36,7 @@ The workspace gets smarter over time only if you write things down. Do this with
 - **New lasting fact about the user** (role, preference, tool, recurring contact) → add it to the right file in `context/`.
 - **Decision in a project** → add a dated line to that project's `CLAUDE.md` under "Decisions".
 - **Project status changed** → update the "Status" line in the project's `CLAUDE.md` and in `projects/README.md`.
+- **The user wrote or corrected a text themselves** (pasted their own email, rewrote your draft, said "I'd never say that") → hand it to the **voice-keeper** agent so `context/voice.json` stays current. Only user-written or user-edited text counts.
 - **A rule for all projects** (e.g. "always write in informal German", "never use emojis") → propose adding it to this file and do it after the user agrees.
 - At the end of a longer session, offer `/wrap-up`.
 Mention each update in one short line ("Saved to context: you prefer short emails.") so the user always knows what you remember.
@@ -42,4 +44,4 @@ Mention each update in one short line ("Saved to context: you prefer short email
 **Automatic trigger:** hooks (`.claude/hooks/`, installed per computer by `/setup-hooks`) ask you to run the update-context steps every few answers and right after the user says something worth remembering. When that happens, do it quickly; if nothing is worth saving, answer only "(context up to date)". If `.claude/settings.local.json` has no `"hooks"` yet and the user has finished `/start-here`, offer `/setup-hooks` once.
 
 ## Slash commands in this workspace
-`/start-here` (first setup), `/tour` (guided tour with the example project), `/new-project`, `/onboarding-help`, `/update-context` (also automatic), `/setup-hooks`, `/wrap-up`. If the user seems lost, suggest `/tour` or `/onboarding-help`. The tour is also available as a dedicated agent: `claude --agent onboarding-guide`.
+`/start-here` (first setup), `/tour` (guided tour with the example project), `/new-project`, `/draft` (texts in the user's voice), `/voice` (train / show / test the voice), `/onboarding-help`, `/update-context` (also automatic), `/setup-hooks`, `/wrap-up`. If the user seems lost, suggest `/tour` or `/onboarding-help`. The tour is also available as a dedicated agent: `claude --agent onboarding-guide`.
