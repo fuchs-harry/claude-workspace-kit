@@ -1,0 +1,16 @@
+{
+  "name": "claude-workspace-kit",
+  "owner": { "name": "fuchs-harry" },
+  "metadata": {
+    "description": "Claude Workspace Kit: a personal AI workspace and plugins for people who don't code."
+  },
+  "plugins": [
+    {
+      "name": "personal-os",
+      "source": "./plugins/personal-os",
+      "description": "Daily plan, brain dump, weekly review, drafts in your voice, decision helper, learning notes, focus sessions, and one-command workspace setup.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}

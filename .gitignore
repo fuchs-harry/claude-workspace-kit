@@ -1,0 +1,11 @@
+# personal, never share
+.claude/state/
+.claude/settings.local.json
+CLAUDE.local.md
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
