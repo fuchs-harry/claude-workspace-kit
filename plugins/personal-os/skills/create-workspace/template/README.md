@@ -1,6 +1,17 @@
+<p align="center">
+  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Built%20for-Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Built for Claude Code"></a>
+  <img src="https://img.shields.io/badge/For-non--coders-141413?style=for-the-badge" alt="For non-coders">
+  <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-supported-2F7D55?style=for-the-badge" alt="macOS, Windows, Linux">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3B6EA8?style=for-the-badge" alt="MIT license"></a>
+</p>
+
 # Claude Workspace Kit
 
 **Your personal AI workspace for Claude Code. Built for people who don't code.**
+
+<p align="center">
+  <img src="assets/overview.svg" alt="Overview: you talk in plain language; the workspace remembers you, keeps projects in order, sounds like you, runs automations, teaches you Claude Code and is safe by default; the Personal OS plugin adds daily commands." width="100%">
+</p>
 
 You talk, Claude works. This kit gives Claude a clean home on your computer: one place where it remembers who you are, how you like to work, and what every project is about. You never have to explain yourself twice.
 
